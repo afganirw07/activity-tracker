@@ -1,0 +1,4 @@
+Service heartbeat monitor
+-------------------------
+Used to verify scheduled automation and repository availability.
+    
