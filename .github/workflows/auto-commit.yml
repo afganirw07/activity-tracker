@@ -18,7 +18,7 @@ jobs:
 
       - name: Update heartbeat
         run: |
-          echo "Last update: $(date -u)" >> heartbeat.txt
+          echo "- $(date -u '+%Y-%m-%d %H:%M UTC') : service availability check" >> heartbeat.txt
 
       - name: Commit changes
         run: |
